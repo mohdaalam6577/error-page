@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.error-page{
+    text-align: center;
+}
+
+h1{
+    font-size: 3rem;
+    color: red;
+}
+
+.error-page p{
+    font-size: 1.5rem;
+    margin: 20px 0;
+    color: #666;
+}
+
+a{
+    background-color: #183D3D;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+a:hover{
+    background-color: blue;
+}
+
+footer{
+    background-color: #183D3D;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+footer span{
+    color: red;
+}
